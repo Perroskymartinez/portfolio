@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul{
+    list-style: none;
+}
+
+header {
+    display: flex;
+    background-color: rgb(45, 139, 132);
+    align-items:center ;
+    justify-content:space-between ;
+ nav ul {
+    display: flex;
+    gap: 3em;
+}
+
+}
+
+header{
+    display: flex;
+    background-color: rgb(221, 92, 41);
+    align-items: center;
+    justify-content:flex-start ;
+}
+header a i {
+color: white;
+font-size: 2em;
+padding: 0.5em;
+}
+
+p{
+    border-radius: 30px;
+
+}
+
+h2{
+    display: flex;
+    background-color: antiquewhite;
+    align-items:center;
+    justify-content: space-around;
+    border-radius: 30px;
+
+}
+
+/* Esta parte es para ver como funciona el cambio de color cuando se reduce el tamaño de la pantalla */
+
+.container{
+    padding: 20px;
+    color: rgb(5, 29, 66);
+    text-align: center;
+}
+
+@media (max-width : 768px){
+    .container{
+    background-color: rgb(14, 105, 148);
+    }
+}

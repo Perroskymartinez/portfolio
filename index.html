@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar cafe</title>
+    <link rel="stylesheet" href="styless.css">
+    <link rel="stylesheet" href="styless2.css">
+
+    <script src="https://kit.fontawesome.com/64c950334a.js" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Freeman&display=swap" rel="stylesheet">
+
+
+    <form action="Formulario clase X">
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" placeholder="Ingrese un nombre" id="nombre" required />
+        <label for="pais">Pais:</label>
+        <select name="pais" id="pais">
+            <option value="argentina">Argentina</option>
+            <option value="bolivia">Bolivia</option>
+            <option value="chile">Colombia</option>
+            <option value="peru">Perú</option>
+            <option value="uruguay">Uruguay</option>
+            <option value="venezuela">Venezuela</option>
+            <option value="default" selected>Seleccionar</option>
+        </select>
+
+        <label for="consulta">Consulta:</label>
+        <textarea name="consulta" id="consulta"></textarea>
+
+        <fieldset>
+            <label for="consulta">Consulta 2:</label>
+            <textarea name="consulta" id="consulta"></textarea>
+        </fieldset>
+        <button type="submit">ENVIAR</button>
+
+    </form>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <a href=""></a>
+            <a href="index.html"><i class="fa-solid fa-heart-circle-bolt"></i></a>
+            <a href="https://hillsong.com/portugal/" target="_blank">Lugar de desarrollo y crecimiento </a>
+            <nav>
+                <ul>
+                    <li>Inicio </li>
+                    <li>Acerca de mi </li>
+                    <li>Recorridos</li>
+                    <li>Proyectos</li>
+                    <li>Más Información</li>
+                </ul>
+            </nav>
+        </header>   
+
+        <main id="seccionPrincipal">
+            <section class="seccion1">
+                <div class="acercaDe">
+                    <h2 class="main__title">Acerca de mi</h2>
+                    <p>Colombiano de Rionegro Antioquia <br>en busca de conquistar mi propósito en la tierra</p>
+
+                    <p>Confiando en que podemos hacer lo mejor de nosotros mismos <br> y ya Dios hará el resto!</p>
+                </div>
+                <div class="acercaImagen">
+                    <img src="IMG_8135.jpg" className="image--main" alt="Imagen portada">
+                </div>
+            </section>
+
+            <section class="seccion2">
+                <img src="IMG_3159.JPG" alt="">
+            </section>
+        </main>
+        <footer></footer>
+    </div>
+
+    <button id="btn-generar">Generar Frase Aleatoria</button>
+<footer id="footer">
+   <p id="frase"></p>
+</footer>
+
+
+
+</body>
+
+
+
+</html>
